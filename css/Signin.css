@@ -4,6 +4,7 @@ img {
 body {
     margin: 0 ;
     padding: 0px ;
+    background-color: #E3CCAE;
 }
 .container {
     display: flex;
@@ -40,6 +41,49 @@ body {
     font-size: 1.4rem ;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #262A56;
+    margin-top: 1.5rem;
+    padding: 1rem ;
+    margin-right: 5rem ;
+    margin-left: 5rem ;
+    border-radius: 0.5rem ;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-data {
+    display: flex;
+    flex-direction: column;
+    
+}
+.signIn-form {
+    display: flex;
+    flex-direction: column;
+
+}
+.username {
+    margin-top: 0.3rem ;
+    font-size: 1rem ;
+    padding: 0.4rem ;
+}
+.password {
+    margin-bottom: 0.5rem ;
+    margin-top: 0.3rem ;
+    font-size: 1rem ;
+    padding: 0.4rem ;
+    margin-top: 0.5rem ;
+}
+.submit {
+    padding: 0.4rem 0.8rem ;
+}
+.btns-form {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
